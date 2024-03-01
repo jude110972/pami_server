@@ -37,8 +37,8 @@ process.on('uncaughtException', (err) => {
 		// 	await db.ImageAssociation.sync({ force: true });
 		// 	await db.GovPartner.sync({ force: true });
 		// 	await db.Hero.sync({ force: true });
-		await db.Blog.sync({ alter: true });
-		await db.Gallery.sync({ alter: true });
+		// await db.Blog.sync({ alter: true });
+		// await db.Gallery.sync({ alter: true });
 		// 	await db.Claim.sync({ force: true });
 		// 	await db.LuPpai.sync({ force: true });
 		// 	await db.LuCtpl.sync({ force: true });
