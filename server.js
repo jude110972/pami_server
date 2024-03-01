@@ -32,23 +32,23 @@ process.on('uncaughtException', (err) => {
 	}
 
 	if (process.env.NODE_ENV === 'production') {
-		await db.User.sync({ force: true });
-		await db.Image.sync({ force: true });
-		await db.ImageAssociation.sync({ force: true });
-		await db.GovPartner.sync({ force: true });
-		await db.Hero.sync({ force: true });
-		await db.Blog.sync({ force: true });
-		await db.Gallery.sync({ force: true });
-		await db.Claim.sync({ force: true });
-		await db.LuPpai.sync({ force: true });
-		await db.LuCtpl.sync({ force: true });
-		await db.CiPpai.sync({ force: true });
-		await db.CiCtpl.sync({ force: true });
-		await db.ClaimImage.sync({ force: true });
-		await db.Branch.sync({ force: true });
-		await db.WebApp.sync({ force: true });
-		await db.Member.sync({ force: true });
-		await db.Leadership.sync({ force: true });
+		// await db.User.sync({ force: true });
+		// await db.Image.sync({ force: true });
+		// await db.ImageAssociation.sync({ force: true });
+		// await db.GovPartner.sync({ force: true });
+		// await db.Hero.sync({ force: true });
+		// await db.Blog.sync({ force: true });
+		// await db.Gallery.sync({ force: true });
+		// await db.Claim.sync({ force: true });
+		// await db.LuPpai.sync({ force: true });
+		// await db.LuCtpl.sync({ force: true });
+		// await db.CiPpai.sync({ force: true });
+		// await db.CiCtpl.sync({ force: true });
+		// await db.ClaimImage.sync({ force: true });
+		// await db.Branch.sync({ force: true });
+		// await db.WebApp.sync({ force: true });
+		// await db.Member.sync({ force: true });
+		// await db.Leadership.sync({ force: true });
 	}
 
 	const port = process.env.PORT || 5000;
